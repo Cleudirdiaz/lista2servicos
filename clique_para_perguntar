@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo">Clique para exibir a pergunta!</p>
+
+    <button onclick="myFunction()">Clique aqui</button>
+    
+    <script>
+    function myFunction()
+    {
+    
+    var coelho=prompt("Qual é o nome do coelho da mônica?");
+
+    if (coelho=="Sansão")
+      {
+   window.alert("parabéns, você acertou!")
+      }else{
+          window.alert("Que pena, você errou!")
+      }
+    }
+    </script>
+</script>
+</body>
+</html>
